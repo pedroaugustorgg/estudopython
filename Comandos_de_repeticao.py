@@ -12,3 +12,13 @@ while x <= 10:
 	x = x+3
 
 #Comando FOR
+print ("Comando for:\nUtilizado para percorrer um conjunto de laços de repetição (estruturas de repetição) pré-estabelecidos. No teste prático é mais fácil de compreender a condição \"for\".")
+print ("\nSintaxe do FOR (exemplo):\nfor i in range(0,5):\n	print i\n\nZona de teste WHILE:")
+
+#Teste FOR
+lista1 = [1,2,3,4,5]
+lista2 = ["ola","mundo","!"]
+lista3 = [0,"ola","biscoito","bolacha",9.99,True]
+
+for i in lista2:
+	print (i)
