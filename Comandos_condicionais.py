@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 print ("COMANDOS CONDICIONAIS / ESTRUTURAS CONDICIONAIS\n")
+print ("Spoiler: No backend deste código já há uma zona de testes para você treinar as condicionais com operações básicas\n\n")
 
 #Comando IF
 print ("Comando IF:\nRealiza testes condicionais;\nExecuta um bloco apenas SE uma determinada condição for atendida;\nAvalia se a condição é verdadeira ou não.\n\nSintaxe do IF (exemplo):\nif condição:\n 	execute_esta_linha")
