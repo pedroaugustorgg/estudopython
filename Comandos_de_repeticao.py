@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 print ("COMANDOS DE REPETIÇÃO / ESTRUTURAS DE REPETIÇÃO\n")
+print ("Spoiler: No backend deste código já há uma zona de testes para você treinar as condicionais com operações básicas\n\n")
 
 #Comando WHILE
 print ("Comando WHILE:\nUtilizado para criar laços de repetição (estruturas de repetição) e repetem um trecho do código ENQUANTO uma condição avaliada for verdadeira. No teste prático é mais fácio de compreender a condição \"while\".")
