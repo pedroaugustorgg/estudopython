@@ -114,3 +114,14 @@ print ("\nCompilação interna executada:")
 print (minha_string[busca:])
 print ("\nExplicação: Neste caso, acima foi impresso o intervalo entre a variável \"busca\" (que se encontra no endereço 23) e o final da string \"minha_string\", uma vez que não foi delimitado um fim no intervalo após o \":\".")
 print ("\n---x---\n")
+
+#[Utilizando método nas strings (5)] Substituindo partes de uma string
+print ("[APLICANDO MÉTODO EM STRINGS - replace] Substituindo partes de uma string\n")
+print ("Para subistituir partes de uma string/lista é bem simples, basta utilizar o método \"replace\", segue\n")
+print ("Sintaxe:\nminha_string = minha_string.replace(\"o rei\", \"a rainha\")\nprint (minha_string)")
+#Teste9
+print ("\nCompilação interna executada:")
+minha_string = minha_string.replace("o rei", "a rainha")
+print (minha_string)
+print ("\nExplicação: O método replace no caso acima substituiu o intervalo \"o rei\" para \"a rainha\" no exemplo, que resultou na impressão já com a subtituição realizada na string \"minha_string\"")
+print ("\n---x---\n")
