@@ -15,7 +15,8 @@ if x > y:
 if y > x:
 	print ("y maior que x")
 #Explicacao resultado do IF compilado
-print ("\nExplicaçao: Neste caso o resultado apresenta que, internamente neste código, foi atribuido um valor maior para a variável y.\n\n")
+print ("\nExplicaçao: Neste caso o resultado apresenta que, internamente neste código, foi atribuido um valor maior para a variável y.")
+print ("\n---x---\n")
 
 #Funcao ELSE
 print ("Função ELSE:\nEstrutura condicional que é executada caso a condição do if não seja atendida")
@@ -31,7 +32,8 @@ if y > x:
 else:
 	print ("y menor que x")
 #Explicacao resultado do ELSE compilado
-print ("\nExplicaçao: Neste caso o resultado apresenta que, internamente neste código, foi atribuido um valor maior para a variável y, mesmo sendo valor negativo (ex.: -1 > -5).\n\n")
+print ("\nExplicaçao: Neste caso o resultado apresenta que, internamente neste código, foi atribuido um valor maior para a variável y, mesmo sendo valor negativo (ex.: -1 > -5).")
+print ("\n---x---\n")
 
 #Funcao ELIF
 print ("Funcao ELIF:\nUtilizado caso haja a necessidade de mais condições entre o IF e o ELSE.")
@@ -48,3 +50,9 @@ else:
 	print ("x maior que y")
 #Explicacao resultado do ELIF compilado
 print ("\nExplicaçao: Neste caso o resultado apresenta que, internamente neste código, uma das condições (elif) implica no valor da variável x < y")
+print ("\n---x---\n")
+
+#Exemplo com input do usuário
+print ("Vamos exercitar:\nExercicio1: Insira o operador relacional que deve ser atribuido ao \"elif\" substituindo o \"@\" no codigo abaixo\n")
+print ("if a == b:\n	print (\"a e b são números iguais\")\nelif x @ b:\n	print (\"a menor que b\")\nelse:\n	print (\"a maior que b\")\n")
+#Area para criar input do usuário
