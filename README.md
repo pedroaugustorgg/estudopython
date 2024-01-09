@@ -1,7 +1,7 @@
 # APRENDENDO PYTHON 100% PELO TERMINAL
 ## _Isso mesmo!_
 
-Olá, me chamo Pedro Guedes e criei este repositório com o intúito de registrar o aprendizado desta linguagem de programação através da criação e compilação de arquivos .py através do próprio terminal. 
+Olá, me chamo Pedro Guedes e criei este repositório com o intuito de registrar o aprendizado desta linguagem de programação através da criação e compilação de arquivos .py através do próprio terminal. 
 
 Você pode utilizar este do seu sistema operacional ou até mesmo via web, não* necessitando de instalação externa.
 - *Obs.: Exceto caso você deseje executar o [Python] localmente e não tenha instalado na sua máquina. Segue os links para download caso precise:
