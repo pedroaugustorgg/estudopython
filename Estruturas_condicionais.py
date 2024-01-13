@@ -51,8 +51,3 @@ else:
 #Explicacao resultado do ELIF compilado
 print ("\nExplicaçao: Neste caso o resultado apresenta que, internamente neste código, uma das condições (elif) implica no valor da variável x < y")
 print ("\n---x---\n")
-
-#Exemplo com input do usuário
-print ("Vamos exercitar:\nExercicio1: Insira o operador relacional que deve ser atribuido ao \"elif\" substituindo o \"@\" no codigo abaixo\n")
-print ("if a == b:\n	print (\"a e b são números iguais\")\nelif x @ b:\n	print (\"a menor que b\")\nelse:\n	print (\"a maior que b\")\n")
-#Area para criar input do usuário

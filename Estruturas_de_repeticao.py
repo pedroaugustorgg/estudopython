@@ -38,8 +38,3 @@ for p in range (10):
 #Explicacao resultado do RANGE compilado
 print ("\nExplicaçao: Neste caso os 10 elementos dentro do intervalo de 0 a 10 estão sendo impressos na tela\nObs.: Note que apenas foi impresso de 0 a 9, pois o Zero é considerado como um elemento desta RANGE.")
 print ("\n---x---\n")
-
-#Exemplo com input do usuário
-print ("Vamos exercitar:\nExercicio1: Insira o sinal que deve ser atribuido ao \"elif\" substituindo o \"@\" no codigo abaixo\n")
-print ("[Em andamento] Exemplo de impressão de um código")
-#Area para criar input do usuário

@@ -125,8 +125,3 @@ minha_string = minha_string.replace("o rei", "a rainha")
 print (minha_string)
 print ("\nExplicação: O método replace no caso acima substituiu o intervalo \"o rei\" para \"a rainha\" no exemplo, que resultou na impressão já com a subtituição realizada na string \"minha_string\"")
 print ("\n---x---\n")
-
-#Exemplo com input do usuário
-print ("Vamos exercitar:\nExercicio1: Insira o sinal que deve ser atribuido ao \"elif\" substituindo o \"@\" no codigo abaixo\n")
-print ("[Em andamento] Exemplo de impressão de um código")
-#Area para criar input do usuário
