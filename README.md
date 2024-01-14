@@ -3,8 +3,8 @@
 
 Olá, me chamo Pedro Guedes e criei este repositório com o intuito de registrar o aprendizado desta linguagem de programação através da criação e compilação de arquivos .py através do próprio terminal. 
 
-Você pode utilizar este do seu sistema operacional ou até mesmo via web, não* necessitando de instalação externa.
-- *Obs.: Exceto caso você deseje executar o [Python] localmente e não tenha instalado na sua máquina. Segue os links para download caso precise:
+Você pode utilizar o terminal do seu sistema operacional ou até mesmo via web, não* necessitando de instalação externa.
+- *Obs.: Exceto caso você deseje executar o [Python] e trabalhar com arquivos localmente. Para isso você precisará do Python instalado na sua máquina. Caso não tenha, segue os links para download:
   - [Windows][PyWindows]
   - [Linux][PyLinux]
   - [MacOS][PyMacOS]
