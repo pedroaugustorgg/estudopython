@@ -2,11 +2,11 @@
 
 #Apresentação e descrição
 print ("COMANDOS/FUNÇOES DE REPETIÇÃO | ESTRUTURAS DE REPETIÇÃO")
-print ("Spoiler: No backend deste código já há uma zona de testes para você treinar as condicionais com operações básicas\n\n")
+print ("Spoiler: No backend deste código já há uma zona de testes para você treinar as estruturas de repeticoes apresentadas.\n\n")
 
 #Funcao WHILE
 print ("Função WHILE:\nUtilizado para criar laços de repetiçao (estruturas de repetição) e repetem um trecho do código ENQUANTO uma condiçao avaliada for verdadeira. No teste prático é mais fácio de compreender a condição \"while\".")
-print ("\nSintaxe do WHILE (exemplo):\nwhile condiçao:\n 	execute_esta_linha\n 	execute_esta_linha1\n*Muito cuidado para não acabar criando uma compilação infinita, isso pode resultar num erro ou até mesmo travar a máquina em questão. É por isso que foi colocado o \"x = x+1\" após o print (evitando o aparecimento do número \"1\" eternamente.\n\nZona de teste WHILE (Compilação interna executada):\n")
+print ("\nSintaxe do WHILE (exemplo):\nwhile condiçao:\n\texecute_esta_linha\n\texecute_esta_linha1\n*Muito cuidado para não acabar criando uma compilação infinita, isso pode resultar num erro ou até mesmo travar a máquina em questão. É por isso que foi colocado o \"x = x+1\" após o print (evitando o aparecimento do número \"1\" eternamente.\n\nZona de teste WHILE (Compilação interna executada):\n")
 #Teste WHILE
 x = 1
 while x <= 10:
