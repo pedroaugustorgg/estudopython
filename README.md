@@ -10,14 +10,14 @@ Você pode utilizar o terminal do seu sistema operacional ou até mesmo via web,
   - [MacOS][PyMacOS]
 
 ## Compilando arquivos .py localmente:
-Após copiar o código escrito em python, você pode acessar o terminal do seu sistema operacional, acessar o diretório onde o arquivo .py se encontra e executá-lo com a seguinte linha de comando:
+Com o código escrito em python pronto, você pode salvar o arquivo com a acessar o terminal do seu sistema operacional, acessar o diretório onde o arquivo .py se encontra e executá-lo com a seguinte linha de comando:
 ```sh
 python nome_do_arquivo.py
 ```
 ![image](https://github.com/pedroaugustorgg/estudopython/assets/80770771/7af857c0-5d24-4857-ade7-69ceca7d7eff)
  
 ## Compilando os códigos via Web:
-Após copiar o código escrito em python, você pode acessar o [compilador online][WebPythonCompiler] e verificar o resultado do código através de qualquer navegador web (até mesmo do seu celular). Segue a demonstração:
+Após copiar o código escrito em python, você pode acessar o [compilador online][WebPythonCompiler], colar o código na IDE e verificar o resultado do código através de qualquer navegador web (até mesmo do seu celular) clicando em "Run". Segue a demonstração:
 ![image](https://github.com/pedroaugustorgg/estudopython/assets/80770771/c8512a07-3075-4c81-9cc9-1cab51a0d3ff)
 
 ## Documentação oficial Python
