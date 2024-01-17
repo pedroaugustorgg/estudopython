@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+
+#Apresentação e descrição
 print ("Vamos aprender o comando PRINT. O Comando \"print\" é utilizado para exibir uma mensagem na tela.")
 print ("Ao digitar \"print\" seguido de parenteses e aspas (\"exemplo\") permite a aparição de uma palavra após a compilação do código, vamos lá!\n")
 print ("Uma linha de código dessa forma: print (\"Hello World / Olá Mundo.\") compila exatamente essa linha abaixo.")

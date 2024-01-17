@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+
+#Apresentação e descrição
 print ("STRINGS | Um tipo de dado que armazena coleções de caracteres (texto)\nObs.: Em Python, strings são objetos (é possível aplicar métodos à elas)\n")
 print ("\nSpoiler: No backend deste código já há uma zona de testes para você treinar Strings.\n\n")
 print ("São declaradas entre aspas. Segue os exemplos:\n")
