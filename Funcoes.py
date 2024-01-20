@@ -2,7 +2,7 @@
 
 #Apresentação e descrição
 print ("FUNCOES")
-print ("\nSpoiler: No backend deste código já há uma zona de testes para você treinar as funcoes apresentadas.\n\n")
+print ("\nSpoiler: No backend deste código já há uma zona de testes para você treinar as funcoes apresentadas.\n")
 print ("Em Python são definidas pela palavra \"def\", ficando com a seguinte estrutura:\n")
 print ("def NOME (parâmetros)\n comandos\n\nCHAMADA:\nNOME(ARGUMENTOS)\n\nSegue um exemplo de sintaxe:\n")
 
