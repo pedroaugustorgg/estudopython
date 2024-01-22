@@ -74,7 +74,7 @@ lista = [153,45,862,85,50,3,1,5,90,10,28]
 lista.sort()
 print (lista)
 #Explicacao resultado do Teste5 compilado
-print ("\nExplicação: Neste caso acima nós tínhamos uma lista com números aleatórios e conseguimos imprimir ordenado de forma crescente.\n*Obs.:Caso queira mudar a ordenação (para forma decrescente por exemplo), baste inserir no parênteses do \'sort\'. Segue a sintaxe:\n")
+print ("\nExplicação: Neste caso acima nós tínhamos uma lista com números aleatórios e conseguimos imprimir ordenado de forma crescente.\n*Obs.:Caso queira mudar a ordenação (para forma decrescente por exemplo), baste inserir no parênteses do \'sort\' (se a lista for de Strings, será ordenado alfabeticamente). Segue a sintaxe:\n")
 print ("lista.sort(reverse=True)")
 print ("\nCompilação interna executada:")
 lista.sort(reverse=True)
