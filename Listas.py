@@ -2,8 +2,6 @@
 
 #Apresentação e descrição
 print ("Listas / Lists")
-
-#Funcao OPEN
 print ("\nAs listas representam conjuntos de dados, podendo ser basicamente de dois tipos:")
 print ("Numérica: [1, 2, 3, 4, 5]\nStrings: [\"bola\",\"sapato\",\"chuva\"]")
 
