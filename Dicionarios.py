@@ -53,4 +53,5 @@ for v in meu_dicionario.values():
     print(v)
 #Explicacao resultado do Teste4 compilado
 print ("\nExplicação: Neste caso a funcao \'items\' transformou as chaves e valores em itens (semelhante ao que ocorre com os índices nas listas) e a função \'values\' imprimiu apenas os valores presentes no dicionário setado.")
+print ("\n*Obs.: Caso tenha interesse em imprimir apenas as chaves, basta utilizar o método \'keys\' ao invés de \'items\'.")
 print ("\n---x---\n")
