@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-print ("TIPOS DE OPERADORES.")
+print ("TIPOS DE OPERADORES")
 #Operadores matemáticos
 print ("Operadores matemáticos: + - * / ** %\n+ Adição\n- Subtração\n* Multiplicação\n/ Divisão\n** Exponenciação\n% Módulo (ou resto da divisão)\n")
 print ("\n---x---\n")

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 #Apresentação e descrição
-print ("Dicionários")
+print ("DICIONÁRIOS")
 print ("\nDefinição: São listas de associações compostos por uma chave e um valor correspondente. A principal diferença entre os dicionários e as Listas é que as listas possuem índices/elementos, já os dicionários possuem chaves. A forma de se inserir um dicionário do código também se difere, uma vez que é atribuido com chaves \"{}\", segue um exemplo didático:\n")
 
 #Sintaxe

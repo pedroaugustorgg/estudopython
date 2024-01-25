@@ -2,7 +2,7 @@
 import random
 
 #Apresentação e descrição
-print ("Módulo \"Random\" para gerar dados aleatórios.")
+print ("DADOS ALEATÓRIOS\nMódulo \"Random\" para gerar dados aleatórios.")
 print ("\nPara utilizar o módulo em questão, você vai precisar inserir a linha \"import random\" no início do código. Com isso vai ser possível utilizar diversos métodos que geram números aleatórios. Segue um exemplo com a sintaxe:\n")
 print ("numero = random.randint(0,20)\nprint(numero)")
 
