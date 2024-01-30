@@ -65,17 +65,48 @@ print ("\nExplicação: Neste caso acima nós apagamos os 3 primeiros elementos.
 print ("\n---x---\n")
 
 #Bonus: Ordenação de Listas
-print ("Bonus: Ordenação de listas. é possível ordenar de forma crescente uma lista com elementos numéricos. Segue um exemplo de sintaxe:\n")
+print ("ORDENAÇÃO DE LISTAS / LIST SORT")
+print ("A a ordenação de listas, é possível ordenar de forma crescente ou decrescente uma lista com elementos numéricos. Segue um exemplo de sintaxe:\n")
 print ("lista = [153,45,862,85,50,3,1,5,90,10,28]\nlista.sort()\nprint (lista)")
 print ("\nCompilação interna executada:")
 lista = [153,45,862,85,50,3,1,5,90,10,28]
 lista.sort()
 print (lista)
-#Explicacao resultado do Teste5 compilado
+#Explicacao resultado do Teste6
 print ("\nExplicação: Neste caso acima nós tínhamos uma lista com números aleatórios e conseguimos imprimir ordenado de forma crescente.\n*Obs.:Caso queira mudar a ordenação (para forma decrescente por exemplo), baste inserir no parênteses do \'sort\' (se a lista for de Strings, será ordenado alfabeticamente). Segue a sintaxe:\n")
 print ("lista.sort(reverse=True)")
 print ("\nCompilação interna executada:")
 lista.sort(reverse=True)
 print (lista)
 print ("\n*Dica.: Também é possível reverter a lista antes ou após realizar a ordenação, para isso, deverá ser utilizado método REVERSE. Segue o exemplo de sintaxe:\n\nlista.reverse()\nprint (lista)")
+print ("\n---x---\n")
+
+#List Comprehension
+print ("COMPREENSÃO DE LISTAS / LISTS COMPREHENSION")
+print ("A compreensão é muito útil para utilizarmos uma espécie de \'conversão automática\' de listas já pré-existentes. Segue um exemplo de sintaxe sem utilização do \'list comprehension\':\n")
+print ("a = [1, 2, 3, 4, 5]\nb = []\n\nfor i in x:\n\ty.append(i**2)\nprint(x)\nprint(y)")
+#Teste6
+a = [1, 2, 3, 4, 5]
+b = []
+
+for i in a:
+    b.append(i**2)
+print ("\nCompilação interna executada (SEM list comprehension):")
+print(a)
+print(b)
+#Explicacao resultado do Teste6
+print ("\nExplicação: Neste caso a variável \'y\' foi compreendida como o quadrado dos indices (elementos) da lista presente na variável \'x\'.")
+print ("\n---x---\n")
+
+#Teste7
+print ("Agora o mesmo exemplo anterior, porém com a utilização do \'list comprehension\'. Segue:\nx = [1, 2, 3, 4, 5]\ny = [i**2 for i in x]\nz = [i for i in x if i%2==1]")
+x = [1, 2, 3, 4, 5]
+y = [i**2 for i in x]
+z = [i for i in x if i%2==1]
+print ("\nCompilação interna executada (COM list comprehension):")
+print(x)
+print(y)
+print(z)
+#Explicacao resultado do Teste6
+print ("\nExplicação: Neste caso conseguimos perceber que a compreensão feita diretamente na variável \'y\' deixou o código bem mais enxuto. Além disso, nós adicionamos a variável \'z\' com a impressão apenas dos números/índices ímpares presentes na lista")
 print ("\n---x---\n")
