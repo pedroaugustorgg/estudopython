@@ -81,10 +81,11 @@ print (lista)
 print ("\n*Dica.: Também é possível reverter a lista antes ou após realizar a ordenação, para isso, deverá ser utilizado método REVERSE. Segue o exemplo de sintaxe:\n\nlista.reverse()\nprint (lista)")
 print ("\n---x---\n")
 
-#List Comprehension
+#Python avançado: List Comprehension
 print ("COMPREENSÃO DE LISTAS / LISTS COMPREHENSION")
 print ("A compreensão é muito útil para utilizarmos uma espécie de \'conversão automática\' de listas já pré-existentes. Segue um exemplo de sintaxe sem utilização do \'list comprehension\':\n")
 print ("a = [1, 2, 3, 4, 5]\nb = []\n\nfor i in x:\n\ty.append(i**2)\nprint(x)\nprint(y)")
+
 #Teste6
 a = [1, 2, 3, 4, 5]
 b = []
@@ -107,6 +108,6 @@ print ("\nCompilação interna executada (COM list comprehension):")
 print(x)
 print(y)
 print(z)
-#Explicacao resultado do Teste6
+#Explicacao resultado do Teste7
 print ("\nExplicação: Neste caso conseguimos perceber que a compreensão feita diretamente na variável \'y\' deixou o código bem mais enxuto. Além disso, nós adicionamos a variável \'z\' com a impressão apenas dos números/índices ímpares presentes na lista")
 print ("\n---x---\n")
