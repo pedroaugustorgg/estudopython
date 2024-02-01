@@ -28,3 +28,28 @@ for i, nome in enumerate(lista):
         print(i, nome)
 print ("\nExplicaçao: Conseguimos verificar que, em apenas 3 linhas de código, foi possível criar uma lista e imprimir seus elementos com os respectivos indices.")
 print ("\n---x---\n")
+
+#Python Avançado: Função map
+print ("Função MAP (conhecimento básico sobre listas recomendado)")
+print ("Definição: Vai utilizar uma função aplicando esta em todos os elementos de uma lista. Segue um exemplo de sintaxe:\n")
+print ("def dobro(x):\n\treturn x*2\nsemlista = 5\nvalor = [1, 2, 3, 4, 5]\nvalor_dobrado = map(dobro, valor)\nvalor_dobrado = list(valor_dobrado)")
+def dobro(x):
+        return x*2
+
+semlista = 5
+
+valor = [1, 2, 3, 4, 5]
+
+valor_dobrado = map(dobro, valor)
+valor_dobrado = list(valor_dobrado)
+
+#Teste3
+print ("\nCompilação interna executada (sem função map):\n")
+print ("Sintaxe:\nprint(dobro(semlista))\n\nResultado:")
+print(dobro(semlista))
+
+#Teste4
+print ("\nCompilação interna executada (utilizando map + lista) 2:\n")
+print ("Sintaxe:\nvalor_dobrado = list(valor_dobrado)\nprint(valor_dobrado)\n\nResultado:")
+print(valor_dobrado)
+print ("\n---x---\n")
