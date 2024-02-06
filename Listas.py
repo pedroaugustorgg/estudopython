@@ -54,7 +54,7 @@ print ("\nExplicação: Neste caso acima nós adicionamos uma condicional pra va
 print ("\n---x---\n")
 
 #Teste5
-print ("Uma outra possibilidade é excluir um ou mais elementos dentro de uma guia, para isto é necessário utilizarmos a função \'del\'. Segue um exemplo de sintaxe:\n")
+print ("Uma outra possibilidade é excluir um ou mais elementos dentro de uma lista, para isto é necessário utilizarmos a função \'del\'. Segue um exemplo de sintaxe:\n")
 print ("minha_lista = [\"José\",\"Thiago\",\"Pedro\"]\nminha_lista.append(\"Bruno\")\ndel minha_lista[0:3]\nprint(minha_lista)")
 print ("\nCompilação interna executada:")
 minha_lista.append("Bruno")
@@ -62,6 +62,20 @@ del minha_lista[0:3]
 print (minha_lista)
 #Explicacao resultado do Teste5 compilado
 print ("\nExplicação: Neste caso acima nós apagamos os 3 primeiros elementos.\n*Obs.: Caso queira apagar a lista inteira, basta deixar o intervalo vazio, exemplo:\ndel minha_lista[:]")
+print ("\n---x---\n")
+
+#Teste6
+print ("Também é possível extrair um elemento da lista, para isto é necessário utilizarmos o método \'pop\' (que extrai por padrão o último elemento de uma lista). Segue um exemplo de sintaxe:\n")
+print ("minha_lista3 = [\"Moises\",\"Matheus\",\"James\"]\nminha_lista.pop()\nprint(minha_lista)")
+print ("\nCompilação interna executada:")
+minha_lista3 = ["Moises","Matheus","James"]
+minha_lista3.pop()
+print (minha_lista3)
+#Explicacao resultado do Teste6 compilado
+print ("\nExplicação: Neste caso acima o último elemento da lista que era \"James\" foi retirado da lista e impresso na tela a lista sem ele, caso o usuário execute novamente o mesmo método, já não irá constar o último elemento da lista atual, que no caso seria o elemento \"Matheus\". Veja o exemplo abaixo:")
+print ("\nCompilação interna executada:")
+minha_lista3.pop()
+print (minha_lista3)
 print ("\n---x---\n")
 
 #Bonus: Ordenação de Listas
@@ -86,7 +100,7 @@ print ("COMPREENSÃO DE LISTAS / LISTS COMPREHENSION")
 print ("A compreensão é muito útil para utilizarmos uma espécie de \'conversão automática\' de listas já pré-existentes. Segue um exemplo de sintaxe sem utilização do \'list comprehension\':\n")
 print ("a = [1, 2, 3, 4, 5]\nb = []\n\nfor i in x:\n\ty.append(i**2)\nprint(x)\nprint(y)")
 
-#Teste6
+#Teste7
 a = [1, 2, 3, 4, 5]
 b = []
 
@@ -95,11 +109,11 @@ for i in a:
 print ("\nCompilação interna executada (SEM list comprehension):")
 print(a)
 print(b)
-#Explicacao resultado do Teste6
+#Explicacao resultado do Teste7
 print ("\nExplicação: Neste caso a variável \'y\' foi compreendida como o quadrado dos indices (elementos) da lista presente na variável \'x\'.")
 print ("\n---x---\n")
 
-#Teste7
+#Teste8
 print ("Agora o mesmo exemplo anterior, porém com a utilização do \'list comprehension\'. Segue:\nx = [1, 2, 3, 4, 5]\ny = [i**2 for i in x]\nz = [i for i in x if i%2==1]")
 x = [1, 2, 3, 4, 5]
 y = [i**2 for i in x]
@@ -108,6 +122,7 @@ print ("\nCompilação interna executada (COM list comprehension):")
 print(x)
 print(y)
 print(z)
-#Explicacao resultado do Teste7
+#Explicacao resultado do Teste8
 print ("\nExplicação: Neste caso conseguimos perceber que a compreensão feita diretamente na variável \'y\' deixou o código bem mais enxuto. Além disso, nós adicionamos a variável \'z\' com a impressão apenas dos números/índices ímpares presentes na lista")
 print ("\n---x---\n")
+
